@@ -87,7 +87,7 @@ string plur(string str) {
     switch (a) { 
         case "sh":
         case "ch":
-            return a + "es";
+            return str + "es";
             break;
         default:
            break;
